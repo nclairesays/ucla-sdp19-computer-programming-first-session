@@ -1,0 +1,93 @@
+body {
+    background-color: tan;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: darkcyan;
+    padding: 10px;
+    position: fixed;
+    width: 100%; /* view width = vw */
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    /*
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    */
+    font-size: 1.5em;
+    color:white;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+header {
+    padding-top: 38px;
+    background-image: url("https://i.pinimg.com/originals/6d/ad/d9/6dadd96dc66deaf408b0967c6fd786cf.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.slide {
+    height: 75vh;
+    background-color: pink;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div h1 {
+    color: purple;
+    font-size: 2.5em;
+}
+
+#about {
+    background-color: #5a1b74;
+}
+
+#my-profile-pic {
+    background-image: url("https://profilepicturesdp.com/wp-content/uploads/2018/07/profile-picture-facebook-funny-11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+
+#my-profile-details {
+    width: 60%;
+    height: 100%;
+    background-color: red;
+}
+
+.post-wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    border: 2px dotted #5a1b74;
+    /* height:200px; */
+    /* overflow-y: scroll; */
+    padding: 20px;
+}
+
+#blog {
+    flex-direction: column;
+    height: auto;
+}
+
+.date {
+    float: right;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+
+
+
