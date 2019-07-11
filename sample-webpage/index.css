@@ -34,6 +34,7 @@ header {
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 170, 0.5);
     color: rgb(51, 44, 141);
     padding-top: 38px;
+    min-height: 400px;
 }
 
 header h1 {
@@ -42,30 +43,31 @@ header h1 {
 }
 
 .slide {
-    /* height: 75vh; */
-    min-height: 300px;
+    height: 75vh;
     box-sizing: border-box;
     display:  flex;
     align-items: center;
     justify-content: center;
-    /* margin: 10px; */
-    padding: 20px;
+    padding: 40px;
 }
 
-
+a {
+    color: rgb(110, 103, 5); 
+    line-height: 1.5;
+}
 
 #about {
     background-color: rgb(255, 249, 158);
-    padding: 20px;
+    /* padding: 20px; */
     margin: 0;
 }
 
 #my-profile-image {
     background-image: url("https://profilepicturesdp.com/wp-content/uploads/2018/07/profile-picture-facebook-funny-11.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 30%;
+    width: 40%;
     height:100%;
     display: inline-block;
 }
@@ -80,8 +82,8 @@ header h1 {
 
 .post-wrapper {
     width: 90%;
-    background-color: #ffffff;
-    border: 2px dotted #5a1b74;
+    background-color: #d0d198;
+    border: 2px dotted #fffb0a;
     /* height:200px; */
     /* overflow-y: scroll; */
     padding: 20px;
